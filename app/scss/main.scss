@@ -1,0 +1,21 @@
+// adjustment variables
+$container-width: 960px;
+$body-font: "Helvetica", sans-serif;
+
+// colors
+$bg: #fff;
+$black: #000;
+
+//layout
+@import "_misc/_normalize";
+@import "_misc/_fonts";
+@import "_misc/_mixins";
+@import "_misc/_adjustment";
+
+
+// styles
+@import "sections/header";
+@import "sections/footer";
+
+// media
+// @import "_misc/media";

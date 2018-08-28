@@ -1,0 +1,23 @@
+// Файл для подключения шрифтов
+@import "_mixins";
+
+// @include font-face("helvetica-example", "../../fonts/Helvetica-Regular");
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Regular.woff2') format('woff2'),
+    url('../fonts/Helvetica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @mixin Myriad Pro($style: regular) {
+//     @if $style == regular {
+//         font-family: 'Myriad Pro';;
+//     }
+
+//     @if $style == bold {
+//         font-family: 'Myriad Pro Bold';
+//     }
+// }
+
